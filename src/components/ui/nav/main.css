@@ -1,0 +1,37 @@
+.$__container {
+    background-color: #000;
+    min-height: 40px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+.$__container .$__logo {
+    width: 297px;
+    height: 52px;
+    display: inline-block;
+    font-size: 300px;
+    color: #333333;
+    user-select: none;
+}
+
+.$__container .$__logo span {
+    font-size: 100px;
+}
+
+.$__container li {
+    display: inline-block;
+}
+.$__container a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #eeeeee;
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.$__container a:hover {
+    color: #188eee;
+}
